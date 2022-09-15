@@ -11,7 +11,7 @@ public class AlcuadradoModel implements AlCuadrado.Model{
     @Override
     public void alcuadrado(String data) {
         if (data.equals("")){
-            presenter.showError("Error: Campo Vacio");
+            presenter.showError("Error: El campo no puede estar vacio");
         }else {
             resultado = Double.valueOf(data)*Double.valueOf(data);
             presenter.showResult(String.valueOf(resultado));
