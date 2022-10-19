@@ -9,7 +9,7 @@ public class AlcuadradoModel implements AlCuadrado.Model{
     }
 
     @Override
-    public void alcuadrado(String data) {
+    public void alcuadrado(String data) {//si esta en la interfaz
         if (data.equals("")){
             presenter.showError("Error: El campo no puede estar vacio");
         }else {

@@ -4,7 +4,7 @@ public class AlCuadradoPresenter implements AlCuadrado.Presenter{
     private AlCuadrado.View view;
     private AlCuadrado.Model model;
 
-    public AlCuadradoPresenter(AlCuadrado.View view) {
+    public AlCuadradoPresenter(AlCuadrado.View view) {//no esta en la interfaz
         this.view = view;
         model = new AlcuadradoModel(this) ;
     }

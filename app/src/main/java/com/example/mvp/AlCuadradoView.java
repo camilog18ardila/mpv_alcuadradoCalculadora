@@ -21,7 +21,7 @@ public class AlCuadradoView extends AppCompatActivity implements AlCuadrado.View
         presenter= new AlCuadradoPresenter(this);
 
     }
-    public void calcular(View view){
+    public void calcular(View view){//no esta en la interfaz
         presenter.alcuadrado(edalcuandrado.getText().toString());
     }
 
